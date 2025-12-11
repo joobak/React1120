@@ -18,6 +18,7 @@ background-image: url('../public/img/slider.jpg');
 background-size: cover;
 background-position: center;
 margin-bottom: 30px;
+<<<<<<< HEAD
 }
 
 .c1 {text-decoration: none; color:#000; text-align: center;}
@@ -30,4 +31,6 @@ margin-bottom: 30px;
 .end {
    transform: scale(1);
    transition :all 0.5s;
+=======
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
 }

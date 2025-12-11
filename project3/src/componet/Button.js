@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
     import "./Button.css";
 
@@ -21,3 +22,26 @@ import React from "react";
     };
 
     export default Button;
+=======
+import React from 'react';
+import "./Button.css";
+        //type = "nagative"
+const Button = ({text, type, onClick}) => {
+    const btnType = 
+        ["positive", "nagative"].includes(type) ? type : "default";
+
+    return (
+        <button className={["Button", `Button_${btnType}`].join(" ")}
+                onClick={onClick}
+        >
+            {text}
+        </button>
+    );
+};
+
+Button.defaultProps = {
+    type: "default"
+}
+
+export default Button;
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41

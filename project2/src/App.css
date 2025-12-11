@@ -4,8 +4,16 @@
   margin: 0 auto;
   box-sizing: border-box;
   padding: 20px;
+<<<<<<< HEAD
   /* border: 1px solid gray; <- 삭제하거나 주석 처리 하세요 */
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
+=======
+  border: 1px solid gray; 
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41

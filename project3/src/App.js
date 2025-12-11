@@ -140,7 +140,11 @@ function App() {
               <Route path="/new" element={ <New />} />
               <Route path="/diary/:id" element={ <Diary />} />   
               <Route path="/edit/:id" element={ <Edit />} />
+<<<<<<< HEAD
             </Routes>
+=======
+            </Routes>            
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
           </div>
         </DiaryDispatchContext.Provider>
       </DiaryStateContext.Provider>
@@ -148,4 +152,8 @@ function App() {
   }
 }
 
+<<<<<<< HEAD
 export default App;
+=======
+export default App;
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41

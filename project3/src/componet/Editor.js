@@ -38,7 +38,18 @@ const Editor = ({initData, onSubmit}) => {
         });
     };
 
+<<<<<<< HEAD
     const handleSubmit = () => {
+=======
+    const handleChangeEmotion = (emotionId) => {
+        setState({
+            ...state,
+            emotionId: emotionId
+        });
+    };
+
+    const handleSubmit = () => {      
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
         onSubmit(state);
     };
 
@@ -46,12 +57,15 @@ const Editor = ({initData, onSubmit}) => {
         navigate(-1);
     };
 
+<<<<<<< HEAD
     const handleChangeEmotion = (emotionId) => {
         setState({
             ...state,
             emotionId: emotionId
         });
     };
+=======
+>>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
 
     return (
         <div className='Editor'>
