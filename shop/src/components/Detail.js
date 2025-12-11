@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { useParams } from "react-router-dom";
 import { Nav } from 'react-bootstrap'
 import { useState, useEffect  } from 'react';
@@ -32,15 +31,10 @@ function Detail(props) {
     console.log("내가 선택한 상품은: " + id + " " + title);
 
 
-=======
-import React from 'react';
-function Detail() {
->>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
     return (
         <div className="container">
             <div className="row">
                 <div className="col-md-6">
-<<<<<<< HEAD
                 <img src={'/' + imgUrl} width="100%" alt={title} />
                 {/* <img src={process.env.PUBLIC_URL + '/' + imgUrl} width="100%" alt={title} /> */}
                 </div>
@@ -83,22 +77,10 @@ function Detail() {
                 </Nav.Item>
             </Nav>
             <TabContent tap={tap}/>
-=======
-                    <img src="img/fruit1.jpg" width="100%" />
-                </div>
-                <div className="col-md-6">
-                    <h4 className="pt-5">상품명</h4>
-                    <p>상품설명</p>
-                    <p>12000원</p>
-                    <button className="btn btn-danger">주문하기</button>
-                </div>
-            </div>
->>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
         </div>
     )
 }
 
-<<<<<<< HEAD
 function TabContent({tap}){
     let [fade, setFade] = useState('')
     
@@ -117,6 +99,4 @@ function TabContent({tap}){
     );
 };
 
-=======
->>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
 export default Detail;

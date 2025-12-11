@@ -63,8 +63,4 @@ let data = [
     price: 18500,
   },
 ];
-<<<<<<< HEAD
 export default data;
-=======
-export default data;
->>>>>>> f40a1f6919915875ca33c8551b1bedd315ab6d41
